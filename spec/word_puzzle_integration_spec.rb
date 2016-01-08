@@ -5,7 +5,7 @@ Capybara.app = Sinatra::Application
 set(:show_exceptions, false)
 
 describe('word puzzle app', {:type => :feature}) do
-  it('takes the word or sentence the user inputs and replaces the vowels with a "-" symbol.') do
+  it('replaces vowels in the string a user inputs with a "-" symbol') do
     visit('/')
     fill_in('string-input', :with => 'Hello World')
     click_button('Submit')

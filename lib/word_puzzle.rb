@@ -1,6 +1,5 @@
 class String
-  def word_puzzle
-    string = self.gsub(/[aeiouyAEIOUY]/, "-")
-    return string
+  def vowels_to_dashes
+    self.gsub(/[aeiouyAEIOUY]/, "-")
   end
 end

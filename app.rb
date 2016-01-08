@@ -7,6 +7,6 @@ get('/') do
 end
 
 get('/result') do
-  @result = params.fetch('string-input').word_puzzle()
+  @result = params.fetch('string-input').vowels_to_dashes()
   erb(:result)
 end
