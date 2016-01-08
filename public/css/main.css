@@ -29,6 +29,7 @@ body {
   margin: 50px auto;
   padding: 20px;
   border: 2px solid #fff;
+  text-align: center;
 }
 
 form {
@@ -51,6 +52,11 @@ button {
   margin-left: 20px;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
+}
+
+.return-bt {
+  width: 200px;
+  margin: 50px auto;
 }
 
 p {
