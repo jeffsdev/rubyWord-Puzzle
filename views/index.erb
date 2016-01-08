@@ -1,7 +1,16 @@
-<h1>Hello World! This is a placeholder title.</h1>
+<%= @yield %>
 
-<form action="/result">
-  <label>Enter in a string to turn into a puzzle:</label>
-  <input type="text" id="string-input" name="string-input">
-  <button type="submit" name="Submit">Submit</button>
-</form>
+<header>
+  <h1>Word Puzzle!</h1>
+</header>
+
+<div class="main-content">
+
+  <h3>Enter in a word or sentence below to turn it into a word puzzle:</h3>
+
+  <form action="/result">
+    <input type="text" id="string-input" name="string-input">
+    <button type="submit" name="Submit">Submit</button>
+  </form>
+
+</div>
