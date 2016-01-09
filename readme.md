@@ -1,5 +1,4 @@
-# Application Name
-Word Puzzle!
+# Word Puzzle!
 
 #### Week 1 - Ruby code review for Epicodus
 
@@ -12,7 +11,7 @@ This is a small web app for the 1st week code review for the Ruby course at Epic
 HTML, CSS, Ruby, rspec, capybara, sinatra, heroku.
 
 ## Link to Project
-//insert heroku link here//
+[View Word Puzzle! app](https://lit-refuge-6853.herokuapp.com/)
 
 ## License
 Copyright (c) 2015 Jeff Seymour
