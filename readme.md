@@ -10,8 +10,14 @@ This is a small web app for the 1st week code review for the Ruby course at Epic
 ## Technologies Used
 HTML, CSS, Ruby, RSpec, Capybara, Sinatra, Heroku.
 
-## Link to Project
+## Link to Project on Heroku
 [View Word Puzzle! app](https://lit-refuge-6853.herokuapp.com/)
+
+## Setup
+Clone repository  
+```bundle install```  
+```ruby app.rb```  
+View in browser at localhost:4567
 
 ## License
 Copyright (c) 2016 Jeff Seymour
